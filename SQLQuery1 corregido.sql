@@ -78,17 +78,17 @@ GO
 --Procedimientos
 --=====================================================================================================
 
- INSERT INTO USUARIOS(Nombre, Correo, Telefono) Values ('Alessandro','Ale@Cam.com','72608432'), ('Gabriel','GAB@Cam.com','72903432'), ('Orlando','ORL@Cam.com','73628232')
+ INSERT INTO USUARIOS(Nombre, Correo, Telefono) Values ('Jesus','jes@Cam.com','72608432'), ('Antonio','jes@Cam.com','72903432'), ('Erick','jes@Cam.com','73628232')
  GO
  
- INSERT INTO EQUIPOS(IDUsuarios, TipoEquipo , Modelo) Values ( 1 , 'Laptop','Lenovo2019') , ( 2 , 'PC','XPG2021'),( 3 , 'Lactop','HP2023')
+ INSERT INTO EQUIPOS(IDUsuarios, TipoEquipo , Modelo) Values ( 1 , 'Laptop','Lenovo2022') , ( 2 , 'PC','XPG2021'),( 3 , 'Lactop','HP2023')
  GO
 
 
  INSERT INTO REPARACIONES(IDEquipos, Estado) Values (1,'X'),(2,'Y'),(3,'Z')
  GO
 
-  INSERT INTO TECNICOS(Nombre,Especialidad) Values('Alessandro','Programador'), ('Gabriel','Programador'),('Orlando','Desarollador')
+  INSERT INTO TECNICOS(Nombre,Especialidad) Values('Jesus','Programador'), ('Antonio','Programador'),('Chus','Desarollador')
  GO
 
   INSERT INTO ASIGNACIONES(IDReparaciones,IDTecnicos) Values (1,1),(2,2),(3,3)
